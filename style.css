@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Session 43 - starts */
+body{
+    background-color: rgb(123, 255, 226)
+}
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Antonio:wght@100&family=Archivo:wght@100&display=swap');
+/* ------------------------------------------------------------------------------------------------------------- */
+h1,h2{
+    font-family: 'Aclonica', sans-serif;
+    color: darkblue;
+}
+h3,h4,h5,h6,a,p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: blue;
+    margin-top: 30px;
+}
+button p{
+    padding:15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    background-color: lightseagreen;
+    color: #000;
+    
+    }
+    .divh2{
+        text-align: left;
+        padding-top: 10px;
+        margin-left: 60px;
+        font-family: 
+        font-weight: 400; 
+    }
+    .container h3{
+        padding-top: 5px;
+        line-height: 30px;
+    }
+/* Session 44  */
+  
+
+/* Comment the code for the logo part */
+/* #logo {
+    background-color: grey;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+} */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content:center;
+
+}
+
+nav>div {
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 18px;
+    color: #01a0fc;
+}
+a:hover{
+    color:#47d12b;
+    font-weight: 600;
+}
+
+
+
+header {
+    height: 500px;
+    background-image: url(./Asset/header_image.png);
+    background-repeat: no-repeat;
+   
+}
+
+header>h1 {
+    text-align: left;
+    padding-top: 180px;
+    font-size: 48px;
+    margin-left: 60px;
+
+}
+
+.section>h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.section>p {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 280px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div-container {
+    display: flex;
+}
+
+.div-container>div {
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid rgb(63, 0, 0);
+    margin-left: 40px;
+
+}
+
+h3 {
+    padding-top: 10px;
+    
+}
+
+#box {
+    margin-top: 40px;
+
+}
+
+#box>div {
+    /* border: 1px solid black; */
+    height: 420px;
+    width: 400px;
+
+}
+
+.image-container {
+    height: 260px;
+    width: 400px;
+    background-color: rgb(199, 214, 57);
+
+}
+
+#box h2 {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#box p {
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+footer {
+    margin-top: 60px;
+    height: 60px;
+    border: 1px solid rgb(192, 209, 35);
+    text-align: center;
+}
+
+
